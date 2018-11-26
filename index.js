@@ -1,12 +1,13 @@
 const express=require('express');
+const bodyParser= require('body-parser')
 // const routes=require('./routes/api');
 
 //Set Up Express App
 const app=express();
 
+app.use(bodyParser.json())
 //Initialize Routes
-app.use('/Api',require('./routes/api'));
-
+app.use('/api',require('./routes/api'));
 
 //listen for requests
 app.listen(process.env.port || 5000,function(){

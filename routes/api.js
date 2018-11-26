@@ -8,7 +8,12 @@ router.get('/ninjas',function(req,res){
 
 //Adding Data
 router.post('/ninjas',function(req,res){
-    res.send({type:"POST"})
+    console.log(req.body);
+    res.send({
+        type:"POST",
+        name:req.body.Name,
+        Id:req.body.ID,
+})
 })
 
 //Updating Data
