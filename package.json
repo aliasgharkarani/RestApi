@@ -1,0 +1,29 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliasgharkarani/RestApi.git"
+  },
+  "keywords": [
+    "REST",
+    "API"
+  ],
+  "author": "ALIKARANI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aliasgharkarani/RestApi/issues"
+  },
+  "homepage": "https://github.com/aliasgharkarani/RestApi#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
